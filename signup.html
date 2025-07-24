@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Meta Tags -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RealEstate - Sign up</title>
+  <!-- Normalize -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/register.css" />
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Google Fonts Montserrat -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="website icon" type="png" href="imgs/logo3-removebg-preview.png">
+
+</head>
+
+<body>
+  <!-- Page Loader -->
+  <div id="overlayer"></div>
+  <span class="loader">
+    <span class="loader-inner"></span>
+  </span>
+  <!-- ------------------------------------------------------ -->
+
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+    <div class="container-fluid px-4 d-flex justify-content-between align-items-center">
+
+      <!-- Logo -->
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="imgs/logo.png" width="50" height="50" class="me-2" alt="Logo">
+      </a>
+
+      <!-- Centered Nav Links -->
+      <!--  Nav Links -->
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item px-2">
+            <a class="nav-link" href="index.html#home">Home</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="index.html#arrivals">Arrivals</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="listing.html">Listing</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="index.html#blog">Blog</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="index.html#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Login + Toggler -->
+      <div class="person d-flex align-items-center">
+        <a href="login.html" class="ms-3" aria-label="Login">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path
+              d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v3h20v-3c0-3.3-6.7-5-10-5z" />
+          </svg>
+        </a>
+        <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- Signup Form -->
+  <section class="form-container">
+    <form class="auth-form">
+      <h2>Create Your Account</h2>
+
+      <div class="form-field">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Full Name" required />
+      </div>
+
+      <div class="form-field">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="Email Address" required />
+      </div>
+
+      <div class="form-field">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Create Password" required />
+      </div>
+
+      <button class="btn-primary" type="submit">Sign Up</button>
+
+      <div class="form-footer">
+        <p>Already have an account? <a href="login.html">Sign in</a></p>
+      </div>
+    </form>
+  </section>
+
+  <!-- Bootstrap JS -->
+  <script src="java/bootstrap.bundle.js"></script>
+  <script src="java/signup.js"></script>
+
+</body>
+
+</html>

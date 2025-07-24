@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RealEstate - Blog</title>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/blog.css" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Google Fonts Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="website icon" type="png" href="imgs/logo3-removebg-preview.png">
+
+</head>
+
+<body>
+    <!-- Page Loader -->
+    <div id="overlayer"></div>
+    <span class="loader">
+        <span class="loader-inner"></span>
+    </span>
+    <!-- ------------------------------------------------------ -->
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md fixed-top custom-navbar">
+        <div class="container-fluid px-4 d-flex justify-content-between align-items-center">
+
+            <!-- Logo  -->
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="imgs/logo.png" width="50" height="50" class="me-2" alt="Logo">
+            </a>
+
+            <!--  Nav Links -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="index.html#home">Home</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="index.html#arrivals">Arrivals</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="index.html#listing">Listing</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link active" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="index.html#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <!-- Login + Toggler  -->
+            <div class="person d-flex align-items-center">
+                <a href="login.html" class="ms-3" aria-label="Login">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24">
+                        <path
+                            d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v3h20v-3c0-3.3-6.7-5-10-5z" />
+                    </svg>
+                </a>
+                <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+    <div class="watchyad">
+        <h1 class="styleyad">Watch Our Blog</h1>
+        <p class="styleyad">Selected By Our Team</p>
+    </div>
+
+
+    <div class="container">
+        <div class="leftsidecontainer">
+            <div class="searchbar-container">
+                <input type="text" id="blogSearch" placeholder="Search blog titles..." class="form-control my-3">
+                <div class="searchcount">9 search results</div>
+                <div class="forfilters">
+                    <label for="statusss">Status:
+                        <select>
+                            <option>All Status</option>
+                            <option>Investment</option>
+                            <option>Tech Trends</option>
+                            <option>Buyers's Guide</option>
+                            <option>Selling Strategies</option>
+                            <option>Eco-Leving</option>
+                            <option>Market insights</option>
+                            <option>Property Trends</option>
+                            <option>Smart Homes</option>
+                            <option>Homeownership</option>
+                        </select>
+                    </label>
+                    <div class="filter-divider"></div>
+                    <label for="statusss">Status:
+                        <select>
+                            <option>All Status</option>
+                            <option>All Status</option>
+                            <option>Investment</option>
+                            <option>Tech Trends</option>
+                            <option>Buyers's Guide</option>
+                            <option>Selling Strategies</option>
+                            <option>Eco-Leving</option>
+                            <option>Market insights</option>
+                            <option>Property Trends</option>
+                            <option>Smart Homes</option>
+                            <option>Homeownership</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+            <div class="blog-section">
+                <div class="blog-cards">
+                    <a href="desc.html" class="card-link">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1501183638710-841dd1904471" alt="Beyond Bricks">
+                            <div class="card-text">
+                                <div class="author-date">
+                                    <span>👤 Sophia</span><span>6/23</span>
+                                </div>
+                                <h3>Beyond Bricks And Mortar</h3>
+                                <p>Elevating Your Lifestyle: Unveiling The Modern Real Estate Experience</p>
+                                <span class="read-more">READ MORE</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="desc.html" class="card-link">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267" alt="Couple">
+                            <div class="card-text">
+                                <div class="author-date">
+                                    <span>👤 Jackson</span><span>6/23</span>
+                                </div>
+                                <h3>Home Harmony</h3>
+                                <p>From Stylish Interiors To Neighborhood Vibes - Crafting A Life In Real Estate.</p>
+                                <span class="read-more">READ MORE</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="desc.html" class="card-link">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1592861956120-e524fc739696"
+                                alt="Luxury Interior">
+                            <div class="card-text">
+                                <div class="author-date">
+                                    <span>👤 Ava</span><span>6/23</span>
+                                </div>
+                                <h3>Investing In Elegance</h3>
+                                <p>Exploring Upscale Residences And The Luxurious Lifestyle They Encompass</p>
+                                <span class="read-more">READ MORE</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="desc.html" class="card-link">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1599423300746-b62533397364"
+                                alt="Classic Architecture">
+                            <div class="card-text">
+                                <div class="author-date">
+                                    <span>👤 Ava</span><span>6/23</span>
+                                </div>
+                                <h3>Cherished Spaces</h3>
+                                <p>Exploring The Timeless Beauty Of Real Estate Gems</p>
+                                <span class="read-more">READ MORE</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="desc.html" class="card-link">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba" alt="Legacy Havens">
+                            <div class="card-text">
+                                <div class="author-date">
+                                    <span>👤 Ava</span><span>6/23</span>
+                                </div>
+                                <h3>Legacy Havens</h3>
+                                <p>Discovering The Rich History Embedded In Real Estate Marvels</p>
+                                <span class="read-more r1">READ MORE</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="desc.html" class="card-link">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+                                alt="Timeless Elegance">
+                            <div class="card-text">
+                                <div class="author-date">
+                                    <span>👤 Ava</span><span>6/23</span>
+                                </div>
+                                <h3>Timeless Elegance: Decor & Heritage</h3>
+                                <p>Discover The Intersection Of Classic Charm And Modern Comfort In Real Estate Design
+                                </p>
+                                <span class="read-more">READ MORE</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="rightsitecontainer">
+            <div class="sidebar">
+                <div class="categories">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><span class="cat-name"><select class="selectt"></select>Investment</span>
+                            <span class="cat-count">2</span>
+                        </li>
+                        <li><span class="cat-name"><select class="selectt"></select>Tech Trends</span><span
+                                class="cat-count">4</span></li>
+                        <li><span class="cat-name"><select class="selectt"></select>Buyer's Guide</span><span
+                                class="cat-count">7</span></li>
+                        <li class="red"><span class="cat-name"><select class="selectt"></select>Selling Strategies</span
+                                class="cat-count"><span>9</span>
+                        </li>
+                        <li><span class="cat-name"><select class="selectt"></select>Eco-living</span><span
+                                class="cat-count">2</span></li>
+                        <li><span class="cat-name"><select class="selectt"></select>Smart Homes</span><span
+                                class="cat-count">7</span></li>
+                        <li><span class="cat-name"><select class="selectt"></select>Market insights</span><span
+                                class="cat-count">2</span></li>
+                        <li><span class="cat-name"><select class="selectt"></select>Property Trends</span><span
+                                class="cat-count">8</span></li>
+                        <li><span class="cat-name"><select class="selectt"></select>Homeownership</span><span
+                                class="cat-count">5</span></li>
+
+                    </ul>
+                </div>
+                <div class="audioo">
+                    <h3>Audio Stories</h3>
+                    <ul>
+                        <li>
+                            <p>A Magical Journey Through An Enchanted Land</p>
+                            <div class="style-audio">
+                                <button class="play-btn">►</button>
+                                <div class="progress">
+                                    <div class="progress-filled"></div>
+                                </div>
+                                <div class="duration">0.00</div>
+                                <audio src="audio/Warm-Memories-Emotional-Inspiring-Piano(chosic.com).mp3"></audio>
+                            </div>
+                        </li>
+                        <li>
+                            <p>Timeless Tales That Resonate Through The Ages</p>
+                            <div class="style-audio">
+                                <button class="play-btn">►</button>
+                                <div class="progress">
+                                    <div class="progress-filled"></div>
+                                </div>
+                                <div class="duration">0.00</div>
+                                <audio src="audio/Warm-Memories-Emotional-Inspiring-Piano(chosic.com).mp3"></audio>
+                            </div>
+                        </li>
+                        <li>
+                            <p>A Melodic Tale Set In The Quietude Of Midnight</p>
+                            <div class="style-audio">
+                                <button class="play-btn">►</button>
+                                <div class="progress">
+                                    <div class="progress-filled"></div>
+                                </div>
+                                <div class="duration">0.00</div>
+                                <audio src="audio/Warm-Memories-Emotional-Inspiring-Piano(chosic.com).mp3"></audio>
+                            </div>
+                        </li>
+                        <li>
+                            <p>Harmonies Of The Beyond In A Ghostly Narrative </p>
+                            <div class="style-audio">
+                                <button class="play-btn">►</button>
+                                <div class="progress">
+                                    <div class="progress-filled"></div>
+                                </div>
+                                <div class="duration">0.00</div>
+                                <audio src="audio/Warm-Memories-Emotional-Inspiring-Piano(chosic.com).mp3"></audio>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pagination">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <span>...</span>
+        <a href="#">25</a>
+        <a href="#" class="arrow">→</a>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3 class="footer-heading">Contact Us</h3>
+                <ul class="contact-list ps-0">
+                    <li><i class="fas fa-map-marker-alt"></i> 567 Royal Avenue, Grand Harbor Suites, Tranquil Springs
+                    </li>
+                    <li><i class="fas fa-phone-alt"></i> (555) 123-4567</li>
+                    <li><i class="fas fa-envelope"></i> Info@Tranquilestate.Com</li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3 class="footer-heading">Category</h3>
+                <ul class="footer-links ps-0">
+                    <li><a href="#">Villas</a></li>
+                    <li><a href="#">Condos</a></li>
+                    <li><a href="#">Houses</a></li>
+                    <li><a href="#">Offices</a></li>
+                    <li><a href="#">Retail</a></li>
+                    <li><a href="#">Apartments</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column ">
+                <h3 class="footer-heading">Properties</h3>
+                <ul class="footer-links ps-0">
+                    <li><a href="#">Buy</a></li>
+                    <li><a href="#">Sell</a></li>
+                    <li><a href="#">Rent</a></li>
+                    <li><a href="#">Landlords</a></li>
+                    <li><a href="#">New Homes</a></li>
+                    <li><a href="#">Overseas Properties</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3 class="footer-heading">Agents And Office</h3>
+                <ul class="footer-links ps-0">
+                    <li><a href="#">Find And Office</a></li>
+                    <li><a href="#">Find An Agent</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Franchising</a></li>
+                    <li><a href="#">Head Office</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Footer Bottom Bar -->
+        <div class="footer-bottom">
+            <div class="footer-logo">
+                <img src="imgs/logo4.jpg" alt="Estate Logo">
+                <span>ESTATE</span>
+            </div>
+            <div class="footer-copyright">
+                All Rights Reserved @ 2024
+            </div>
+            <div class="footer-legal">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookies</a>
+            </div>
+        </div>
+    </footer>
+    <button class="scrollTop btnstyletop">⬆</button>
+    <button id="darkModeToggle" class="btnstyletopp">🌓</button>
+    <script src="java/bootstrap.bundle.js"></script>
+    <script src="java/blog.js"></script>
+</body>
+
+</html>
